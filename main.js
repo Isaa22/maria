@@ -28,13 +28,13 @@ function draw() {
     drops[i]++;
   }
 
-  // Adiciona o nome "isa" centralizado
+  // Adiciona o nome "Isa" centralizado
   ctx.fillStyle = '#00FF00'; // Cor verde
   ctx.font = 'bold 24px monospace';
-  const textWidth = ctx.measureText('isa').width;
+  const textWidth = ctx.measureText('Maria').width;
   const x = (canvas.width - textWidth) / 2;
   const y = canvas.height / 2;
-  ctx.fillText('Maria Isabely Soares Carvalho', x, y);
+  ctx.fillText('Maria', x, y);
 
   requestAnimationFrame(draw);
 }
